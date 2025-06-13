@@ -28,6 +28,7 @@ const SumCalculator = () => {
 
   return (
     <div>
+        <h1>Sum Calculator</h1>
         <input value={inputValue} onChange={(e) => {
             setInputValue(e.target.value);
              const num = parseInt(inputValue);
